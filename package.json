@@ -1,0 +1,23 @@
+{
+  "name": "promise-mocha-sample",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "eslint": "^5.6.1",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "pretest": "eslint --ignore-path .eslintignore .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecs-hk/promise-mocha-sample"
+  },
+  "author": "whatitis",
+  "license": "MIT",
+  "description": "Simple samples for getting started with promises"
+}
