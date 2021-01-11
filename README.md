@@ -4,7 +4,7 @@ Beginner-focused sample code that illustrates testing of promises. More generall
 
 Credit goes to [javascript.info Promise Basics documentation](https://javascript.info/promise-basics) for helping me "get it".
 
-Tested with: Node.js v8 LTS
+Tested with: Node.js v14 LTS
 
 ## Set up environment
 
