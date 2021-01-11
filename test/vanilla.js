@@ -34,7 +34,7 @@ describe('Call vanilla promiser function', function() {
       await f.createPromiseVanillaCrypto(bytesLength)
         .then(
           () => Promise.reject(new Error('Expected an exception')),
-          err => assert.equal(typeof err, 'object')
+          err => assert.equal(typeof err, 'object'),
         );
     });
   });

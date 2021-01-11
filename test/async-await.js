@@ -48,7 +48,7 @@ describe('Call async-await promiser function', function() {
       await f.createPromiseAsyncAxios(uri)
         .then(
           () => Promise.reject(new Error('Expected an exception')),
-          err => assert.equal(typeof err, 'object')
+          err => assert.equal(typeof err, 'object'),
         );
     });
   });
